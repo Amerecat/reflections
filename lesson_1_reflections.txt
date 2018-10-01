@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It helped me compare quickly the areas that were different between the files
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    you could track and trace how the code makes sense and how it changed as it was developed 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros are that
+    1) you get to decide whether you'd like the commit to be added forever to a repository
+    2) you always get the latest version of the repository
+    3) its possible to roll-back to an earlier version
+    4) you get to organise your commits
+
+    The cons are that
+    1) you need to be disciplined and organised about it
+    2) 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because some systems require changes only in one place rather than the whole document. So if files are stores seperately based on type but yet affects one another, then its best to allow for saving multiple files in one commit.
+    It also helps when there are bigger projects
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You go into the folder containing the relevant files, type in "git log" to get the complete list of commits. Locate the commit you want based on the comments. Press down or enter to revel more parts of the log.
+    Once you get the commit you want, you can use "git diff" to compare both files.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    This is because you can always checkout and then make changes, then save it on a different branch. This does not affect the whole log files
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I'd like to familiarise myself with all these seemingly technical terms and not get so freaked out when working with my Mac Terminal
+
+    Update: Im a bit more familiar now. I'd like to see how I can locate and launch anything through terminal. At the moment, my challenge would be to remember the exact file name. Im sure they'll be a command to deal with that :)
