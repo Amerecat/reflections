@@ -1,0 +1,8 @@
+
+What happens when you initialize a repository? Why do you need to do it?
+
+It creates the .git hidden file. This will then allow you to track the version history of each file in that directory
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is kind of like the area you get to start working on something and essentially, you begin tracking each and every logical change you make. With that, I get to see all changes made to my file 
