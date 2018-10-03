@@ -16,3 +16,7 @@ What are some situations when branches would be helpful in keeping your history 
 	1) when I want to experiment with something but dont want it to affect my master files
 	2) it helps when I want to locate a specific part in my work and then work from there
 	3) I can narrow down exactly what might have caused changes/bugs to appear in my files
+
+How do the diagrams help you visualize the branch structure?
+
+	It helps me clearly see where I have branched out and also which areas may not be reachable from other branches. I then get to decide whether I'd like to commit that change and create such a branch or just continue without affecting the master or other branches
