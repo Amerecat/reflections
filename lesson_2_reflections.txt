@@ -10,3 +10,9 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical change?
 
 	you can run "git diff" to see each change made. All work done to files are placed in the working area before they can be sent to the staging area. In the staging area the files can then be checked with the repository files via "git diff --staged". Any work that you you dont want can be removed and adjusted accordingly
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	1) when I want to experiment with something but dont want it to affect my master files
+	2) it helps when I want to locate a specific part in my work and then work from there
+	3) I can narrow down exactly what might have caused changes/bugs to appear in my files
