@@ -20,3 +20,9 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 
 	It helps me clearly see where I have branched out and also which areas may not be reachable from other branches. I then get to decide whether I'd like to commit that change and create such a branch or just continue without affecting the master or other branches
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    When two branches are merged together, it forms a "new" master branch which taskes in all the commits of the previous individual branches and re-orders them according to time-stamp. The new branch maintains the original parent branch of the previously seperated branches
+
+    It's a lot easier to track the branches in a written diagram to make sense of how each commit relates back to its parent and also to see whether it makes sense to have it added to the new branch or not.
