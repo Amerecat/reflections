@@ -31,4 +31,8 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Making changes on a separate branch is especially useful when in a collaborative enviroment so that we are able to check on whether such a branch should be merged in the first place.
+    However making changes on master is a much faster and less complicated process then when doing so on a branch. 
+    This is because, when making changes in a separate branch, you need to pull changes into your local branch, merge the local master into the sperate branch then push the branch to remote, then merge the branch into master.
+    
+
